@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="ai-designer">
+    <div class="design-canvas" id="mainCanvas"></div>
+    <div class="ai-tools">
+        <div class="color-palette" id="aiColors"></div>
+        <button class="cyber-button" onclick="generateDesign()">AI Generate</button>
+        <input type="color" id="baseColor" onchange="updatePalette(this.value)">
+    </div>
+</div>
+<script src="{{ url_for('static', filename='js/aiDesign.js') }}"></script>
+{% endblock %}

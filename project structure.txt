@@ -1,0 +1,24 @@
+/futurewear
+├── static/
+│   ├── css/
+│   │   ├── main.css
+│   │   └── ar.css
+│   ├── js/
+│   │   ├── aiDesign.js
+│   │   ├── arViewer.js
+│   │   ├── voiceNav.js
+│   │   └── blockchainAuth.js
+│   ├── models/
+│   │   └── tshirt.glb
+│   └── images/
+├── templates/
+│   ├── base.html
+│   ├── index.html
+│   ├── design.html
+│   ├── ar.html
+│   └── auth.html
+├── app.py
+├── blockchain.py
+├── ai_models/
+│   └── color_predictor.h5
+└── requirements.txt

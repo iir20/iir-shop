@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="ar-container">
+    <div id="arViewport" class="xr-viewer"></div>
+    <div class="ar-controls">
+        <button class="cyber-button" onclick="startAR()">Start AR</button>
+        <button class="cyber-button" onclick="rotateModel()">Rotate</button>
+    </div>
+</div>
+<script src="{{ url_for('static', filename='js/arViewer.js') }}"></script>
+{% endblock %
